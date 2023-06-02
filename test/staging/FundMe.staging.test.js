@@ -1,3 +1,6 @@
+// staging is the final test that is done before the deploying the code onto the main-net 
+// Staging is like the same unit test but done on the test net
+
 const { assert, expect } = require("chai");;
 const { getNamedAccounts, ethers, network } = require("hardhat");
 const { developmentChain } = require("../../helper-hardhat-config");
